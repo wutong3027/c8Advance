@@ -1,0 +1,92 @@
+body {
+    font-family: "Gotham Book", Open Sans, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d9d9d9;
+    font-size: 100%;
+  }
+  
+  .booking-widget {
+    margin: 20px auto;
+  }
+  
+  .booking-widget {
+    box-sizing: border-box;
+    width: 345px;
+    min-height: 605px;
+    padding-bottom: 1px;
+    background-color: #fbfbfb;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .44);
+  }
+  
+  .booking-widget__header {
+    width: 100%;
+    height: 185px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 1px 0px 3px rgba(0, 0, 0, .44);
+  }
+  
+  .booking-widget__header figure {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header-caption {
+    position: absolute;
+    bottom: 20px;
+    left: 25px;
+    color: white;
+  }
+  
+  .header-caption h3 {
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+  }
+  
+  .booking-widget__form {
+    list-style-type: none;
+    padding: 0 25px 0 25px;
+    margin: 0;
+  }
+  
+  .booking-widget__form li {
+    margin: 25px 0;
+  }
+  
+  .form-field {
+    position: relative;
+    background-color: #f4f4f4;
+    margin-top: 5px;
+    box-shadow: -1px -1px 1px rgba(0, 0, 0, 0.25);
+    padding: 10px;
+  }
+  
+  .form-field label {
+    color: #666666;
+  } 
+
+  
+  .form__submit {
+    width: 100%;
+    height: 58px;
+    border: 1px solid transparent;
+    font-size: 15px;
+    background-color: #4c96f8;
+    color: white;
+    text-transform: uppercase;
+    box-shadow: 0px 1px 1px 0 darkgrey;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  input {
+    padding: 10px 76px;
+  }
+
+  select {
+    padding: 10px 104px;
+  }

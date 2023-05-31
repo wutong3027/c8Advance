@@ -1,0 +1,69 @@
+*
+{ 
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+p
+{
+    font-size: 25px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.choose
+{
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+.mastercard,.visa
+{
+    height: 20px;
+    width: 30px;
+}
+
+.item
+{
+    text-align: center;
+}
+
+.booking,.pay
+{
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+.notify
+{
+    text-align: center;
+    width: 700px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color:rgb(216, 207, 207);
+    border-radius: 40px;
+}
+
+.print
+{
+    text-align: center;
+    width: 70%;
+    border: 1;
+}
+
+.receipt
+{
+    text-align: center;
+}

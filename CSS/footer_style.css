@@ -1,0 +1,44 @@
+:root 
+{
+    --primary: #333333;
+    --secondary: #FF9900;
+    --silver: #898989;
+}
+  
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body 
+{
+    height: 100vh;
+    font-family: 'Barlow', sans-serif;
+    text-transform: uppercase;
+    background: #FFFDFC;
+    color: var(--primary);
+}
+  
+footer 
+{
+    padding: 1em 0px;
+    text-align: center;
+}
+  
+@media screen and (max-width: 958px) 
+{
+    header 
+    {
+      grid-template-columns: 1fr 45%;
+    }
+}
+  
+@media screen and (max-width: 500px) 
+{
+    header 
+    {
+      grid-template-columns: 20% 1fr;
+    }
+}

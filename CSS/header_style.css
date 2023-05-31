@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css?family=Monoton);
+@import url(https://fonts.googleapis.com/css?family=Barlow);
+
+:root {
+    --primary: #333333;
+    --secondary: #0b89ff;
+    --silver: #898989;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100vh;
+    font-family: 'Barlow', sans-serif;
+    text-transform: uppercase;
+    background: #FFFDFC;
+    color: var(--primary);
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  .site-wrapper {
+    width: 100%;
+    max-width: 960px;
+    display: grid;
+    grid-template-rows: min-content 1fr min-content;
+    margin: 0 auto;
+    padding: 1em;
+  }
+  
+  header {
+    display: grid;
+    grid-template-columns: 1fr 25%;
+    grid-template-rows: 1fr 60%;
+    grid-template-areas: 
+      "logo login signup"
+      "logo nav nav";
+    align-items: center;
+    text-transform: uppercase;
+    padding: 20px 0;
+  }
+  
+  .login, .signup {
+    text-align: right;
+    font-size: .8rem;
+    padding: 0px 5px;
+    color: var(--silver);
+  }
+  .login:hover, .signup:hover {
+    text-decoration: underline;
+    color: var(--secondary);
+  }
+  .login {
+    border-right: 1px dotted var(--silver);
+    grid-area: login;
+  }
+  .signup {
+    grid-area: signup;
+    padding-right: 0;
+  }
+  
+  .site-nav {
+    grid-area: nav;
+    }
+    .site-nav ul {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .site-nav li {
+      margin-left: 20px;
+    }
+    .site-nav a:hover {
+      text-decoration: underline;
+      color: var(--secondary);
+    }
+  
+  @media screen and (max-width: 958px) {
+    header {
+      grid-template-columns: 1fr 45%;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    header {
+      grid-template-columns: 20% 1fr;
+    }
+  }

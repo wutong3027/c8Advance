@@ -1,0 +1,95 @@
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+form {border: 3px solid #f1f1f1;}
+
+.container{
+	margin:auto;
+	padding: 16px;
+	width:800px;
+}
+
+.button {
+    background-color: grey;
+    border: black;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button:hover{
+
+	background-color: lightgrey;
+	color:white
+}
+
+nav{
+	
+	background-color: grey;
+    width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  float: left;
+}
+
+.b2 {
+  float: right;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.cusList {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.cusList td, .cusList th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.cusList tr:nth-child(even){background-color: #f2f2f2;}
+
+.cusList th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #333;
+  color: white;
+}
+
+.cusList a{
+	text-decoration: default;
+}
+
