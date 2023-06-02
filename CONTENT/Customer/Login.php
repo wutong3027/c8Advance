@@ -11,16 +11,20 @@ if(isset($_SESSION["username"])) {
 <?php
 if (isset($_POST['submit']))	
 {	
-	$connection = mysqli_connect("localhost", "root", "", "ecommerce");
+	$connection = new mysqli("localhost", "root", "", "ecommerce");
 	
 	$email = $password ="";
 	
 	$email = $_POST['email'];
 	$password = $_POST['psw'];
 	
-	$query= "SELECT * FROM customer_detail WHERE email='$email' and password='$password'";
-	
-	$result = mysqli_query($connection,$query);
+	$sql = $connection->prepare("SELECT * FROM customer_detail WHERE email= ? and password= ?;");
+
+	$sql->bind_param("ss", $email, $password);
+
+	$sql->execute();
+
+	$result = $sql->get_result();
 	
 	$row = mysqli_num_rows($result);
 	

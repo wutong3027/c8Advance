@@ -18,7 +18,7 @@ $id = $_SESSION['username'];
 
 if (isset($_POST['submit']))
 {
-	$connection = mysqli_connect("localhost", "root", "", "ecommerce");
+	$connection = new mysqli("localhost", "root", "", "ecommerce");
 	
 	$fname = $lname = $phone = $psw = $address ="";
 	
@@ -28,20 +28,26 @@ if (isset($_POST['submit']))
 	$psw = $_POST['psw'];
 	$address = $_POST['address'];
 
-	$query = "UPDATE customer_detail SET fname='$fname', lname='$lname', mobile='$phone', password='$psw', address='$address' WHERE email = '$id'";
-	$result = mysqli_query($connection, $query);
+	$query = $connection->prepare("UPDATE customer_detail SET fname= ?, lname= ?, mobile= ? , password=?, address=? WHERE customer_id = ?;");
+	$query->bind_param("sssssi", $fname , $lname , $phone , $psw , $address , $id);
+
+	$query->execute();
+	
+	$result = $query->get_result();
 	
 	
-	if ($result === true) {
-		
+	if ($result) {
 		echo "Update Successfully";
-		
-		header("location: home.php");
-		
+		$query->close();
+		$connection->close();
+		header("Location: home.php");
+		exit();
 	} else {
-	    echo"Something Went Wrong! Please Try Again";
-		
-		header("location: modify.php");
+		echo "Something Went Wrong! Please Try Again";
+		$query->close();
+		$connection->close();
+		header("Location: modify.php");
+		exit();
 	}
 }
 
