@@ -15,7 +15,7 @@ if(!isset($_SESSION["username"])) {
 <html>
 <head>
      <title>
-          Book2Sport Court Booking System
+          E-Bansan System
      </title>
      <meta charset="UTF-8">
      <link rel="stylesheet" href="../../CSS/home_style.css"> 
@@ -26,10 +26,10 @@ if(!isset($_SESSION["username"])) {
 
      
      <div class="bgimg-1">    
-          <h1>Book2Sport Court Booking System</h1>
+          <h1 style = "text-shadow: 2px 2px #000000;">E-Bansan System</h1>
                <div class="container">
                     <div class="center">     
-                         <a href="../../CONTENT/Catalog/catalog.php" class="btn blue">Booking Now!</a>
+                         <a href="../../CONTENT/Catalog/catalog.php" class="btn blue">Shop Now!</a>
                     </div>
                </div>
      </div>

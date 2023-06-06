@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
 /* Background images */
 
 
@@ -33,26 +34,28 @@
 
 
 h1{
+    
+
 
     text-align: center;
 
-    padding: 100px;
+    padding: 120px;
 
-    font-size: 80px;
+    font-size: 100px;
 
-    font-family: Quicksand, "sans-serif";
+    font-family: 'Caveat Brush', cursive;
 
     font-weight: bold;
 
-    color: #4164ff;
+    color: crimson;
 
     letter-spacing: .05em;
 
     text-shadow: 
 
-      2px 2px 0px #d5d5d5, 
+      4px 4px 2px #d5d5d5, 
 
-      4px 4px 0px rgba(0, 0, 0, 0.2);
+      8px 8px 4px rgba(0, 0, 0, 0.2);
 
 }
 

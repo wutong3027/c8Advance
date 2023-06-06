@@ -39,10 +39,10 @@
 	</head>
 	<body>
 		<center>
-		<h1 style = "font-size:250%; text-align:center;"> Court List </h1>
+		<h1 style = "font-size:250%; text-align:center;"> Fruits and Vegetables List </h1>
 		<div class="cusList">
 			<?php
-				$DBConnect = mysqli_connect("sql207.epizy.com","epiz_27687366","6r7DoRh7v4","epiz_27687366_Web_Project");
+				$DBConnect = mysqli_connect("localhost", "root", "", "ecommerce");
 		
 				if(!$DBConnect){
 					die('Connect Error (' .mysqli_connect_errno() . ')'.mysqli_connect_error());
@@ -53,24 +53,24 @@
 						if(mysqli_num_rows($result) > 0){
 							echo "<table>";
 								echo "<tr>";
-									echo "<th>Court ID</th>";
-									echo "<th>Court Name</th>";
-									echo "<th>Court HPNO.</th>";
-									echo "<th>Court Address</th>";
-									echo "<th>Price/hour</th>";
-									echo "<th>Start Time</th>";
-									echo "<th>End Time</th>";
+									echo "<th>Item ID</th>";
+									echo "<th>Item Name</th>";
+									// echo "<th>Item HPNO.</th>";
+									echo "<th>Item Description</th>";
+									// echo "<th>Price/hour</th>";
+									// echo "<th>Start Time</th>";
+									// echo "<th>End Time</th>";
 									echo "<th>Action</th>";
 								echo "</tr>";
 							while($row = mysqli_fetch_array($result)){
 								echo "<tr>";
 									echo "<td>" . $row['court_id'] . "</td>";
 									echo "<td>" . $row['court_name'] . "</td>";
-									echo "<td>" . $row['court_call_number'] . "</td>";
+									// echo "<td>" . $row['court_call_number'] . "</td>";
 									echo "<td>" . $row['court_address'] . "</td>";
-									echo "<td>" . $row['court_price_per_hour'] . "</td>";
-									echo "<td>" . $row['court_start_working_time'] . "</td>";
-									echo "<td>" . $row['court_end_working_time'] . "</td>";?>
+									// echo "<td>" . $row['court_price_per_hour'] . "</td>";
+									// echo "<td>" . $row['court_start_working_time'] . "</td>";
+									// echo "<td>" . $row['court_end_working_time'] . "</td>";?>
 									<td>
 										<div style="width:300px;">
 											<form action = "admin_court_list.php" method="post" >
@@ -79,7 +79,7 @@
 												<input class = "button" type="submit" name="update" value="Update Price">
 											</form>	
 										</div>
-										<button class = "button"><a href="admin_court_list.php?delete=<?php echo $row['court_id']; ?>">Delete court</a></button>
+										<button class = "button"><a href="admin_court_list.php?delete=<?php echo $row['court_id']; ?>">Delete Item</a></button>
 									</td>
 								<?php
 								echo "</tr>";
@@ -95,7 +95,7 @@
 				mysqli_close($DBConnect);
 			?>
 		</div>	
-		<button class = "button"><a href="addcourt.php">Add New Court</a></button>
+		<button class = "button"><a href="addcourt.php">Add New Item</a></button>
 		</center>
 	</body>
 </html>

@@ -35,7 +35,7 @@
 		<h1 style = "font-size:250%; text-align:center;"> Customer List</h1>
 		<div class="cusList">
 			<?php
-				$DBConnect = mysqli_connect("sql207.epizy.com","epiz_27687366","6r7DoRh7v4","epiz_27687366_Web_Project");
+				$DBConnect = mysqli_connect("localhost", "root", "", "ecommerce");
 		
 				if(!$DBConnect){
 					die('Connect Error (' .mysqli_connect_errno() . ')'.mysqli_connect_error());

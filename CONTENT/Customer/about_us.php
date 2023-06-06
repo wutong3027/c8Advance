@@ -20,12 +20,12 @@ if(isset($_SESSION["username"])) {
 <body>
 	
 	<div class="main">
-	<h1>WELCOME TO Book2Sport</h1>
-	<h1>An Easy,Simple,and High Quality Booking Court Platform</h1>
+	<h1>WELCOME TO E-BANSAN</h1>
+	<h1>An Easy,Simple,and High Quality Grocery Platform</h1>
 	<ul class="cards">
 		<li class="cards_item">
 		<div class="card">
-			<div class="card_image"><img src="https://lh3.googleusercontent.com/F2N1ts2qVuKEXPBxNIGNt2wFVqlEbbK0PDNuomXI5oU4nrgsF60vWh5Vm4GsoseDEKJ_9Q_E-6thaBl3LQZqAf7IuUWu2-fg28jN0vn4DJ62ukTLCCNmXw3sZ8juGi-SfQzmZTlWvQ=w2400"></div>
+			<div class="card_image"><img src="https://st2.depositphotos.com/1002240/7794/i/950/depositphotos_77943434-stock-photo-fruit-stall.jpg"></div>
 			<div class="card_content">
 			<h2 class="card_title">Contact Me</h2>
 			<p class="card_text">011-123456</p>
@@ -34,16 +34,16 @@ if(isset($_SESSION["username"])) {
 		</li>
 		<li class="cards_item">
 		<div class="card">
-			<div class="card_image"><img src="https://lh3.googleusercontent.com/lTD5HFh489ylBZJY5InXuLJm2gWiKnewDX_ZLvVGf5ua7ABwDjwvM_42lYwNHivkRYtsFi72TK_HTcycKe-wxErefUxe9-KAXspzCN0sVE4XMsG_vggs4v1JPVN3eAtWEXeCvHCstw=w2400"></div>
+			<div class="card_image"><img src="https://st2.depositphotos.com/7401550/11258/i/950/depositphotos_112588412-stock-photo-different-summer-fruits.jpg" style = "height:368px; width:450px"></div>
 			<div class="card_content">
 			<h2 class="card_title">Email</h2>
-			<p class="card_text">court@gmail.com</p>
+			<p class="card_text">bansan@gmail.com</p>
 			</div>
 		</div>
 		</li>
 		<li class="cards_item">
 		<div class="card">
-			<div class="card_image"><img src="https://lh3.googleusercontent.com/Brjl3IV_75WnXEceuxkrlMRSPPPxuRIPLCCMTh3AQbr1odUOfpvPovEOzWeNH_dEANJuFu1bVJD8GyVc1LWK-wzn1ef3G3DQGJGIW14ewhbW22nRwixsCMYFcn25R-ofiyXAGVM0vQ=w2400"></div>
+			<div class="card_image"><img src="https://images.unsplash.com/photo-1609780447631-05b93e5a88ea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" style = "height:368px; width:450px"></div>
 			<div class="card_content">
 			<h2 class="card_title">Find Me</h2>
 			<p class="card_text">Jalan Datuk Mohamad Musa, Kota Samarahan</p>

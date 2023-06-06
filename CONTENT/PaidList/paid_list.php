@@ -50,9 +50,9 @@ if(!isset($_SESSION["username"])) {
 
             <th class="text-left">Court ID</th>
 
-            <th class="text-left">Date</th>
+            <!-- <th class="text-left">Date</th>
 
-            <th class="text-left">Time Slot</th>
+            <th class="text-left">Time Slot</th> -->
 
             <th class="text-left">Action</th>
 
@@ -120,9 +120,9 @@ if(!isset($_SESSION["username"])) {
 
                             <td class="text-left"><?php echo $row['court_id']; ?></td>
 
-                            <td class="text-left"><?php echo $row['booking_date']; ?></td>
+                            <!-- <td class="text-left"><?php echo $row['booking_date']; ?></td>
 
-                            <td class="text-left"><?php echo $row['time_slot']; ?></td>
+                            <td class="text-left"><?php echo $row['time_slot']; ?></td> -->
 
                             <td class="text-left">
 

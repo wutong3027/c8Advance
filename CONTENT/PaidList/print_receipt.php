@@ -40,7 +40,7 @@
 
                         <td class="title">
 
-                            <img src="https://lh3.googleusercontent.com/THl9KtTeoq5iEfddHgNdjzDGRHurMjy_VZmnKoTUK1bJWyc8hCR3m0Zkyx_fw1omg-tQsSpmsLYubr3vLOLVYpouOPIejYP65rGW5XeNTtBCE_9-M4wqPeRW3ejPCWu1YKM1i9w69g=s200-p-k" style="width:100%; max-width:90px;">
+                            <img src="https://img07.shop-pro.jp/PA01326/341/PA01326341.jpg?cmsp_timestamp=20230509114623" style="width:100%; max-width:90px;">
 
                         </td>
 
@@ -176,7 +176,7 @@
 
                                 <td>
 
-                                    Court ID
+                                    Item ID
 
                                 </td>
 
@@ -192,7 +192,7 @@
 
 
 
-                            <tr class="item last">
+                            <!-- <tr class="item last">
 
                                 <td>
 
@@ -208,11 +208,11 @@
 
                                 </td>
 
-                            </tr>
+                            </tr> -->
 
 
 
-                            <tr class="item last">
+                            <!-- <tr class="item last">
 
                                 <td>
 
@@ -228,7 +228,7 @@
 
                                 </td>
 
-                            </tr>
+                            </tr> -->
 
 
 

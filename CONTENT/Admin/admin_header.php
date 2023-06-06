@@ -23,13 +23,13 @@
     <div class="site-wrapper">
         <header>
             <a href="admin_dashboard.php" class="logo">
-                <img src="https://lh3.googleusercontent.com/THl9KtTeoq5iEfddHgNdjzDGRHurMjy_VZmnKoTUK1bJWyc8hCR3m0Zkyx_fw1omg-tQsSpmsLYubr3vLOLVYpouOPIejYP65rGW5XeNTtBCE_9-M4wqPeRW3ejPCWu1YKM1i9w69g=s200-p-k" style="max-width:90px;">
+                <img src="https://img07.shop-pro.jp/PA01326/341/PA01326341.jpg?cmsp_timestamp=20230509114623" style="max-width:90px;">
             </a>
 
             <nav class="site-nav">
                 <ul>
                     <li><a href="admin_dashboard.php">📈Dashboard</a></li>
-                    <li><a href="admin_court_list.php">Court</a></li>
+                    <li><a href="admin_court_list.php">Fruit & Vegetables</a></li>
                     <li><a href="admin_customer_list.php">Customer List</a></li>
 					<li><a href="admin_log_out.php">Logout</a></li>
                 </ul>

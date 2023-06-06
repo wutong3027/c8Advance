@@ -138,11 +138,11 @@ if(!isset($_SESSION["username"])) {
             <th class="text-left">Order ID</th>
             <th class="text-left">Order Status</th>
             <th class="text-left">Customer ID</th>
-            <th class="text-left">Court ID</th>
-            <th class="text-left">Date</th>
-            <th class="text-left">Time Slot</th> 
-            <th class="text-left">Court Name</th>
-            <th class="text-left">Court Price</th>
+            <th class="text-left">Item ID</th>
+            <!-- <th class="text-left">Date</th>
+            <th class="text-left">Time Slot</th>  -->
+            <th class="text-left">Item Name</th>
+            <th class="text-left">Item Price</th>
             <th class="text-left">Action</th>
         </tr>
         <?php
@@ -177,8 +177,8 @@ if(!isset($_SESSION["username"])) {
                         <td class="text-left"><?php echo $row['order_status']; ?></td>
                         <td class="text-left"><?php echo $row['customer_id']; ?></td>
                         <td class="text-left"><?php echo $row['court_id']; ?></td>
-                        <td class="text-left"><?php echo $row['booking_date']; ?></td>
-                        <td class="text-left"><?php echo $row['time_slot']; ?></td>
+                        <!-- <td class="text-left"><?php echo $row['booking_date']; ?></td>
+                        <td class="text-left"><?php echo $row['time_slot']; ?></td> -->
                         <td class="text-left"><?php echo $row['court_name']; ?></td>
                         <td class="text-left"><?php echo $row['court_price_per_hour']; ?></td>
                         <td class="text-left">

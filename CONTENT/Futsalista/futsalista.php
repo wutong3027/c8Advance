@@ -63,7 +63,7 @@
 <body>
     <div class="login-page">
         <div class="form">
-            <h3>© WELCOME TO FUTSALISTA HOME PAGE</h3>
+            <h3>© WELCOME TO E-BANSAN HOME PAGE</h3>
             <form class="login-form">
                 <a href="../../CONTENT/Admin/admin_log_in.html" class="btn blue">Admin</a>
                 <a href="../../CONTENT/Customer/Login.php" class="btn blue">Customer</a>

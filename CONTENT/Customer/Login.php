@@ -68,7 +68,7 @@ if (isset($_POST['submit']))
 
 <form name="Login" onsubmit = "return validate_login()" method="post" action= "Login.php">
 
-<h1 style = "font-size:250%; text-align:center;"> Welcome To C8 Sport Centre Booking System </h1>
+<h1 style = "font-size:250%; text-align:center;"> Welcome To E-Bansan System </h1>
 
 <p style = "font-size:250%; text-align:center;"> Member Login </p>
 

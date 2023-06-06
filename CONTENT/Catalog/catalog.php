@@ -40,7 +40,7 @@ if(!isset($_SESSION["username"])) {
 
     <div class="catalog_flex">
 
-        <h3>Recommended Badminton Court</h3>
+        <h3>Recommended Fruits & Vegetables</h3>
 
     </div>
 
@@ -92,21 +92,21 @@ if(!isset($_SESSION["username"])) {
 
             <figure class="catalog_items">
 
-                <img src="../../IMAGES/Court/<?php echo $row['court_image']; ?>.jpg"/>
+                <img src="../../IMAGES/Court/<?php echo $row['court_image']; ?>.jpg" style = "height:320px; width:340px"/>
 
-                <div class="price">RM <?php echo $row['court_price_per_hour']; ?>/hour</div>
+                <div class="price">RM <?php echo $row['court_price_per_hour']; ?>/kg</div>
 
                 <figcaption>
 
                     <h4><?php echo $row['court_name']; ?></h4>
 
-                    <p>Court ID: <?php echo $row['court_id']; ?></p>
+                    <p>Product ID: <?php echo $row['court_id']; ?></p>
 
-                    <p>Court Call: <?php echo $row['court_call_number']; ?></p>
+                    <!-- <p>Call Number: <?php echo $row['court_call_number']; ?></p> -->
 
-                    <p>Court Address: <?php echo $row['court_address']; ?></p>
+                    <p>Description: <?php echo $row['court_address']; ?></p>
 
-                    <a href="../../CONTENT/Court/court.php?court_id=<?php echo $row['court_id']; ?>">Booking</a>
+                    <a href="../../CONTENT/Court/court.php?court_id=<?php echo $row['court_id']; ?>">Buy</a>
 
                 </figcaption>
 
