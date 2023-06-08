@@ -60,13 +60,13 @@ if(!isset($_SESSION["username"])) {
 
         <?php
 
-            $hostname = "localhost";
+            $hostname = "sql311.infinityfree.com";
 
-            $username = "root";
+            $username = "if0_34380026";
 
-            $password = "";
+            $password = "NEeR0dBMGcW";
 
-            $database_name = "ecommerce";
+            $database_name = "if0_34380026_ecommerce";
 
 
 

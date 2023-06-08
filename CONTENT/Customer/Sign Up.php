@@ -2,7 +2,7 @@
 
 if (isset($_POST['submit']))	
 {	
-	$connection = mysqli_connect("localhost", "root", "", "ecommerce");
+	$connection = mysqli_connect("sql311.infinityfree.com", "if0_34380026", "NEeR0dBMGcW", "if0_34380026_ecommerce");
 	
 	$fname=$lname=$email=$phone=$password=$gender=$state='';
 	

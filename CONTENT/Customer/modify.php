@@ -18,7 +18,7 @@ $id = $_SESSION['username'];
 
 if (isset($_POST['submit']))
 {
-	$connection = new mysqli("localhost", "root", "", "ecommerce");
+	$connection = new mysqli("sql311.infinityfree.com", "if0_34380026", "NEeR0dBMGcW", "if0_34380026_ecommerce");
 	
 	$fname = $lname = $phone = $psw = $address ="";
 	

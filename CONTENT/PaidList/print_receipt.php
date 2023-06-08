@@ -4,7 +4,7 @@
 
 <?php
 
-        $connection = mysqli_connect("localhost", "root", "", "ecommerce");        //connect to database
+        $connection = mysqli_connect("sql311.infinityfree.com", "if0_34380026", "NEeR0dBMGcW", "if0_34380026_ecommerce");        //connect to database
 
 ?>
 

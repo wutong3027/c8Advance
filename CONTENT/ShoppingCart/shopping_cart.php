@@ -13,13 +13,13 @@ if(!isset($_SESSION["username"])) {
 
 <?php
     
-    $hostname = "localhost";
+    $hostname = "sql311.infinityfree.com";
 
-    $username = "root";
+	$username = "if0_34380026";
 
-    $password = "";
+	$password = "NEeR0dBMGcW";
 
-    $database_name = "ecommerce";
+	$database_name = "if0_34380026_ecommerce";
 
     $connect = mysqli_connect($hostname, $username, $password, $database_name);
 
@@ -38,7 +38,7 @@ if(!isset($_SESSION["username"])) {
 
     if(isset($_POST['insert']))
     {    
-        $connection = mysqli_connect("localhost", "root", "", "ecommerce");        //connect to database
+        $connection = mysqli_connect("sql311.infinityfree.com", "if0_34380026", "NEeR0dBMGcW", "if0_34380026_ecommerce");        //connect to database
 
         if ($connect->connect_error)
         {
@@ -104,7 +104,7 @@ if(!isset($_SESSION["username"])) {
 
     if(isset($_POST['insert']))
     {    
-        $connection = mysqli_connect("localhost", "root", "", "ecommerce");        //connect to database
+        $connection = mysqli_connect("sql311.infinityfree.com", "if0_34380026", "NEeR0dBMGcW", "if0_34380026_ecommerce");        //connect to database
 
         $customer_id = $_POST['customer_id'];
         //$order_id = $_POST['order_id'];
@@ -146,13 +146,13 @@ if(!isset($_SESSION["username"])) {
             <th class="text-left">Action</th>
         </tr>
         <?php
-            $hostname = "localhost";
+            $hostname = "sql311.infinityfree.com";
 
-            $username = "root";
-    
-            $password = "";
-    
-            $database_name = "ecommerce";
+            $username = "if0_34380026";
+        
+            $password = "NEeR0dBMGcW";
+        
+            $database_name = "if0_34380026_ecommerce";
 
             $connect = mysqli_connect($hostname, $username, $password, $database_name);
 

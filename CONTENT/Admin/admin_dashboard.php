@@ -1,7 +1,7 @@
 <?php include 'admin_header.php'; ?>
 <?php
  
-	$connect = mysqli_connect("localhost", "root", "", "ecommerce");
+	$connect = mysqli_connect("sql311.infinityfree.com", "if0_34380026", "NEeR0dBMGcW", "if0_34380026_ecommerce");
 	$query = "SELECT paid_date, totalprice FROM payment_record";
 	$result = mysqli_query($connect, $query);
 	$sunday =0; $monday =0; $tuesday =0; $wednesday =0; $thursday =0; $friday =0; $saturday =0;

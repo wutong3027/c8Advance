@@ -1,12 +1,12 @@
 <?php include 'admin_header.php'; ?>
 <?php
-    $hostname = "localhost";
+    $hostname = "sql311.infinityfree.com";
 
-	$username = "root";
+	$username = "if0_34380026";
 
-	$password = "";
+	$password = "NEeR0dBMGcW";
 
-	$database_name = "ecommerce";
+	$database_name = "if0_34380026_ecommerce";
 
     $connect = mysqli_connect($hostname, $username, $password, $database_name);
 
@@ -35,7 +35,7 @@
 		<h1 style = "font-size:250%; text-align:center;"> Customer List</h1>
 		<div class="cusList">
 			<?php
-				$DBConnect = mysqli_connect("localhost", "root", "", "ecommerce");
+				$DBConnect = mysqli_connect("sql311.infinityfree.com", "if0_34380026", "NEeR0dBMGcW", "if0_34380026_ecommerce");
 		
 				if(!$DBConnect){
 					die('Connect Error (' .mysqli_connect_errno() . ')'.mysqli_connect_error());

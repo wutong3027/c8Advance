@@ -11,7 +11,7 @@ if(isset($_SESSION["username"])) {
 <?php
 if (isset($_POST['submit']))	
 {	
-	$connection = new mysqli("localhost", "root", "", "ecommerce");
+	$connection = new mysqli("sql311.infinityfree.com", "if0_34380026", "NEeR0dBMGcW", "if0_34380026_ecommerce");
 	
 	$email = $password ="";
 	

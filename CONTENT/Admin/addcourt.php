@@ -3,7 +3,7 @@
 
 if (isset($_POST['add']))	
 {	
-	$connection = mysqli_connect("localhost", "root", "", "ecommerce");
+	$connection = mysqli_connect("sql311.infinityfree.com", "if0_34380026", "NEeR0dBMGcW", "if0_34380026_ecommerce");
 	
 	$court_id = $_POST['court_id'];
 	$court_name = $_POST['court_name'];
